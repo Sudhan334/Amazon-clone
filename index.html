@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header id="top">
       <div class="navbar">
         <div class="nav-logo border">
           <div class="logo"></div>
@@ -29,167 +29,232 @@
         </div>
 
         <div class="nav-search">
-            <select class="search-select">
-            <option >All</option>
-            </select>
-            <input type="search" class="search-input" placeholder="Search Amazon">
-            <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+          <select class="search-select">
+            <option>All</option>
+          </select>
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Search Amazon"
+          />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
         </div>
         <div class="language border">
-            <i class="fa-solid fa-flag-usa"></i>
-            <select >
-                <option value="">EN</option>
-            </select>
+          <i class="fa-solid fa-flag-usa"></i>
+          <select>
+            <option value="">EN</option>
+          </select>
         </div>
         <div class="nav-signin border">
-            <p><span>Hello, sign in</span></p>
-            <p class="nav-sec">Account & lists</p>
+          <p><span>Hello, sign in</span></p>
+          <p class="nav-sec">Account & lists</p>
         </div>
         <div class="nav-returns border">
-            <p><span>Returns</span></p>
-            <p class="nav-sec">& Orders</p>
+          <p><span>Returns</span></p>
+          <p class="nav-sec">& Orders</p>
         </div>
         <div class="nav-cart border">
-            <i class="fa-solid fa-cart-shopping"></i>
-            Cart
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
         </div>
       </div>
 
       <div class="panel">
-          <div class="panel-all border">
-            <i class="fa-solid fa-bars"></i>
-            All
-           
+        <div class="panel-all border">
+          <i class="fa-solid fa-bars"></i>
+          All
         </div>
 
         <div class="panel-ops">
-            <ul>
-                <li><a href="#" class="border">Today's Deals</a></li>
-                <li><a href="#" class="border">Customer Services</a></li>
-                <li><a href="#" class="border">Registry</a></li>
-                <li><a href="#" class="border">Gifts Cards</a></li>
-                <li><a href="#" class="border">Sell</a></li>
-            </ul>
+          <ul>
+            <li><a href="#" class="border">Today's Deals</a></li>
+            <li><a href="#" class="border">Customer Services</a></li>
+            <li><a href="#" class="border">Registry</a></li>
+            <li><a href="#" class="border">Gifts Cards</a></li>
+            <li><a href="#" class="border">Sell</a></li>
+          </ul>
         </div>
 
         <div class="panel-deals">
-            <p>Shop deals in Electronics</p>
+          <p>Shop deals in Electronics</p>
         </div>
       </div>
     </header>
 
     <div class="hero-section">
-        <div class="hero-message">
-            <p>
-                You are on amazon.com. You can also shop on Amazon Nepal with quick local delivery. <a href="#">Click here to go to amazon.np.com</a>
-            </p>
-        </div>
-
-        <div class="shop-section">
-            <div id="box1" class="box">
-                <div class="box-heading">
-                    <h2>Tools and Home Improvement</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/homeImprovement.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-            <div id="box2" class="box">
-                <div class="box-heading">
-                    <h2>Toys Under Rs.350</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/toys.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-            <div id="box3" class="box">
-                <div class="box-heading">
-                    <h2>Computer & Acessesories</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/computeraccessories.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-            <div id="box4" class="box">
-                <div class="box-heading">
-                    <h2>Electronics</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/electronics.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-            <div id="box5" class="box">
-                <div class="box-heading">
-                    <h2>Home & Kitchen Under Rs.350</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/HomeKitchen.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-            <div id="box6" class="box">
-                <div class="box-heading">
-                    <h2>Health & Personal Care</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/healthcare.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-            <div id="box7" class="box">
-                <div class="box-heading">
-                    <h2>Beauty Picks</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/beautypicks.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-            <div id="box8" class="box">
-                <div class="box-heading">
-                    <h2>New arrivals in Toys</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/newtoys.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-           
-            <div id="box9" class="box">
-                <div class="box-heading">
-                    <h2>Laptops for every need</h2>
-                </div>
-                <div class="box-image">
-                    <img src="images/laptop.jpg" alt="">
-                </div>
-                <div class="box-footer">
-                    <p><a href="#">Shop now</a></p>
-                </div>
-            </div>
-           
-        </div>
+      <div class="hero-message">
+        <p>
+          You are on amazon.com. You can also shop on Amazon Nepal with quick
+          local delivery. <a href="#">Click here to go to amazon.np.com</a>
+        </p>
+      </div>
     </div>
+    <div class="shop-section">
+      <div id="box1" class="box">
+        <div class="box-heading">
+          <h2>Tools and Home Improvement</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/homeImprovement.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+      <div id="box2" class="box">
+        <div class="box-heading">
+          <h2>Toys Under Rs.350</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/toys.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+      <div id="box3" class="box">
+        <div class="box-heading">
+          <h2>Computer & Acessesories</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/computeraccessories.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+      <div id="box4" class="box">
+        <div class="box-heading">
+          <h2>Electronics</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/electronics.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+      <div id="box5" class="box">
+        <div class="box-heading">
+          <h2>Home & Kitchen Under Rs.350</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/HomeKitchen.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+      <div id="box6" class="box">
+        <div class="box-heading">
+          <h2>Health & Personal Care</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/healthcare.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+      <div id="box7" class="box">
+        <div class="box-heading">
+          <h2>Beauty Picks</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/beautypicks.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+      <div id="box8" class="box">
+        <div class="box-heading">
+          <h2>New arrivals in Toys</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/newtoys.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+
+      <div id="box9" class="box">
+        <div class="box-heading">
+          <h2>Laptops for every need</h2>
+        </div>
+        <div class="box-image">
+          <img src="images/laptop.jpg" alt="" />
+        </div>
+        <div class="box-footer">
+          <p><a href="#">Shop now</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-panel">
+      <div class="footer-panel1"><a href="#top">Back to top</a></div>
+      <div class="footer-panel2">
+        <div class="anchor">
+          <h3>Get to Know Us</h3>
+          <a href="#">Careers</a>
+          <a href="#">Blogs</a>
+          <a href="#">About Amazon</a>
+          <a href="#">Investors Relations</a>
+          <a href="#">Amazon Devices</a>
+          <a href="#">Amazon Science</a>
+        </div>
+        <div class="anchor">
+          <h3>Make Money with Us</h3>
+          <a href="#">Sells products on Amazon </a>
+          <a href="#">Sells on Amazon Business</a>
+          <a href="#">Sells apps on Amazon</a>
+          <a href="#">Become an Affiliate</a>
+          <a href="#">Avertise Your Products</a>
+          <a href="#">Self-Publish with Us</a>
+          <a href="#">Host an Amazon Hub</a>
+        </div>
+        <div class="anchor">
+          <h3>Amazon Payment Products</h3>
+          <a href="#">Amazon Business Card</a>
+          <a href="#">Shop with Points</a>
+          <a href="#">Reload Your Balance</a>
+          <a href="#">Amazon Currency Converter</a>
+        </div>
+        <div class="anchor">
+          <h3>Let Us Help You</h3>
+          <a href="#">Amazon and COVID-19</a>
+          <a href="#">Your Account</a>
+          <a href="#">Your Orders</a>
+          <a href="#">Shipping Rates & Policies</a>
+          <a href="#"> Returns & Replacements</a>
+          <a href="#">Manage Your Content and Devices</a>
+          <a href="#">Amazon Assistant</a>
+          <a href="#">Help</a>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-panel3">
+        <div class="footer-logo"></div>
+        <div class="footer-language">
+            <i class="fa-solid fa-globe"></i>
+          <p>English</p>
+        </div>
+        <div>
+          <p>$ USD - U.S. Dollar</p>
+        </div>
+        <div class="footer-location">
+          <i class="fa-solid fa-flag-usa"></i>
+          <p>United States</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="copyright">
+           <p> &copy copyright 2023 Amazon.com. All rights are reserved.</p>
+        </div>
+    </footer>
   </body>
 </html>
